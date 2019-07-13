@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "corinne-petit",
+    "quote": "smartive zeichnet sich durch Professionalität, Dynamik und Kundennähe aus.",
+    "author": "Corinne Petit",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./corinne-petit.jpg"
+  },
+  {
+    "slug": "stefan-bischofberger",
+    "quote": "smartive war für uns der kompetente und zuverlässige Partner, der unserem Projekt zum Erfolg verhalf.",
+    "author": "Stefan Bischofberger",
+    "company": "Cosmopolitan Vermögensverwaltungs AG",
+    "url": "https://www.cosmopolitan.ch/de/",
+    "image": "./stefan-bischofberger.jpg"
+  },
+  {
+    "slug": "jason-fellmann-m-components",
+    "quote": "smartive setzt Aufträge schnell und professionell um. Die Zusammenarbeit ist unkompliziert und angenehm.",
+    "author": "Jason Fellmann",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./jason-fellmann.jpg"
+  },
+  {
+    "slug": "danijela-nikolic",
+    "quote": "Die angenehme Zusammenarbeit und offene Kommunikation ermöglichte es, dieses komplexe Projekt in der kurzen Zeit umzusetzen.",
+    "author": "Danijela Nikolic",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./danijela-nikolic.jpg"
+  },
+  {
+    "slug": "diego-goldener",
+    "quote": "Expertise und Erfahrung von smartive sind aussergewöhnlich. Die Beratung und das saubere Cloud-Setup ermöglichen uns schnelles Voranschreiten. Wir sind glücklich, dass wir nun auch bei der Umsetzung auf smartive zählen können.",
+    "author": "Diego Goldener, Unternehmer",
+    "company": "Subsidia AG",
+    "url": "https://www.subsidia.ch",
+    "image": "./diego-goldener.jpg"
+  },
+  {
+    "slug": "philippe-buehler",
+    "quote": "Die Zusammenarbeit mit smartive ist unkompliziert. Auch dieses Projekt wurde sauber umgesetzt: Und zwar bezüglich Qualität, Zeit und Budget.",
+    "author": "Philipp Bühler, Senior Projektleiter",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./philipp-buehler.jpg"
+  },
+  {
+    "slug": "roland-hunziker",
+    "quote": "Smartive hat dieses technisch sehr komplexe Projekt erfolgreich umgesetzt. Dank klarer, transparenter Kommunikation wussten wir bei der Migros immer bestens über den Projekt-Fortschritt Bescheid.",
+    "author": "Roland Hunziker, Technischer Projektleiter",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./philipp-buehler.jpg"
+  },
+  {
+    "slug": "philippe-buehler-bosw",
+    "quote": "Migipedia lebt jetzt auf 8 Plattformen und ist eine grosse Migros-Community. Die eingesetzte, moderne Technologie bringt drei wesentliche Vorteile: massive Performance-Verbesserung, günstiger in Betrieb und Weiterentwicklung und erhöhte Zuverlässigkeit.",
+    "author": "Philipp Bühler, Senior Projektleiter",
+    "company": "Migros-Genossenschafts-Bund (MGB)",
+    "url": "https://www.migros.ch",
+    "image": "./philipp-buehler.jpg"
+  },
+  {
+    "slug": "fabrina-cerf",
+    "quote": "Das Projekt stösst auf sehr positives Feedback und grosses Interesse bei anderen Kantonen und Organisationen. Durch die Erfahrung und Kompetenz von smartive konnten wir dieses Projekt als moderne Weblösung realisieren.",
+    "author": "Fabrina Cerf",
+    "company": "Fachstelle Psychische Gesundheit, Kanton St.Gallen",
+    "url": "https://www.zepra.info/psychische-gesundheit.html",
+    "image": "./fabrina-cerf.jpg"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Konzeption & Beratung",
+    "catchline": "Das Richtige richtig umsetzen",
+    "lead": "Wo soll es hingehen? Wie kommen wir dahin? Mit welchen Technologien und welcher Architektur? ",
+    "body": "<p>Jedes Vorhaben startet mit einer Idee. Wir begleiten Sie von Anfang an bis zum Go-Live. Wir zeigen Chancen und Risiken der neusten Technologien. Wir kennen die Vor- und Nachteile unterschiedlicher System-Architekturen. Wir unterstützen Sie in der Auswahl eines für Sie geeigneten Technologie-Stacks. Damit Ihre Idee Wirklichkeit wird.</p><p>Mit Architektur- und Code-Reviews schaffen wir eine Ausgangslage für Entscheidungen. Mithilfe von Proof of Concepts verifizieren wir die Eignung von Technologien. So reduzieren wir Risiken und erarbeiten das geeignete technologische Konzept für Ihr Vorhaben.</p><p>So zum Beispiel für unsere Kundin Subsidia: Im Rahmen der Neuentwicklung des <a href='/cases/subsidia-kasse'>Subsidia Kassensystems</a> erarbeiteten wir für das noch junge Unternehmen eine saubere Entscheidungsgrundlage für ihre Technologiewahl.</p>",
+    "image": "./concepts.svg",
+    "linkedCase": {
+      "url": "/cases/subsidia-kasse",
+      "title": "Subsidia Kassensystem"
+    }
+  },
+  {
+    "title": "Webapplikationen",
+    "catchline": "Smart, interaktiv und responsive",
+    "lead": "Massgeschneiderte Webapplikationen und Mobile Apps für Ihre Kunden und Mitarbeiter",
+    "body": "<p>Mit viel Erfahrung und Handwerkskunst kreieren wir Webapplikationen:</p><p><ul><li><a href='/cases/migros-dimmi'>Intranet als Social Network</a> für die Migros</li><li><a href='/cases/cosmo-crm'>Costumor Relationship Management</a> für Cosmopolitan Vermögensverwaltung</li><li><a href='/cases/enterprise-search'>Volltext-Suche für alle Webseiten</a> der Migros</li><li><a href='/cases/subsidia-kasse'>Kassensystem als Progressive Web App</a> für Subsidia</li><li><a href='/cases/migros-ratings-reviews'>Kunden-Community</a> für die Migros</li></ul></p><p>Dabei setzen wir auf moderne Technologien wie React, Angular, D3, Node, Symfony, Elasticsearch und .NET Core. Wir integrieren die erarbeitete Lösung nahtlos in Ihre bestehende IT-Infrastruktur.</p>",
+    "image": "./apps.svg"
+  },
+  {
+    "title": "API-Entwicklung",
+    "catchline": "Performant, sicher und stabil",
+    "lead": "Ihre Daten über eine Schnittstelle für Ihre Webseiten und Apps",
+    "body": "<p>Wir entwickeln GraphQL- und REST-APIs. Hoch verfügbar, sicher, äussert performant und stabil im Betrieb:<ul><li><a href='/cases/migros-ratings-reviews'>Community Inhalte als GraphQL-API</a> für die Migros</li><li><a href='/cases/migros-filialfinder'>Filialen finden dank REST-API</a> für die Migros</li></ul></p><p>Mit einem gut durchdachten API Design legen wir die Grundlage für eine nachhaltige API. Neue Anforderungen können leicht integriert werden.</p><p> Unsere APIs skalieren und sind auch bei hoher Last performant, was wir jeweils mit Performance-Tests garantieren. Mit sauberem Monitoring haben wir die Verfügbarkeit und Stabiltität jederzeit unter Kontrolle.</p>",
+    "image": "./api.svg"
+  },
+  {
+    "title": "DevOps",
+    "catchline": "Jederzeit und überall verfügbar",
+    "lead": "Wie gelangen Ihre Daten ins Netz? Welcher Hostinganbieter ist der richtige? Cloud? On Premise? Hybride Lösung?",
+    "body": "<p>Mit unserer Expertise im Bereich Continuous Integration & Delivery Lösungen unterstützen wir Sie auf dem Weg ins Web. Der Einsatz modernster automatisierter Testingvorgehen gehört für uns zum Alltag und stellt die Qualität Ihrer Software-Lösung sicher. Insbesondere in den Container-Technologien Docker, Kubernetes oder Cloud Foundry verfügen wir über viel Erfahrung.</p><p>Auch im Rahmen des Beratungs- und Entwicklungsauftrages für das <a href='/cases/subsidia-kasse'>Subsidia Kassensystem</a> setzen wir erfolgreich auf moderne Container- und Cloud-Technologien.</p><p>Wir unterstützen Sie dabei, Ihre Applikationen auf gängigen Cloud-Plattformen wie Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure oder aber direkt vor Ort sicher und unterbruchsfrei zu betreiben. Gemeinsam mit ausgewählten Partnern stellen wir den reibungslosen Betrieb und Support Ihrer Webapplikationen sicher, überall und jederzeit.</p>",
+    "image": "./devops.svg",
+    "linkedCase": {
+      "url": "/cases/subsidia-kasse",
+      "title": "Kassensystem als Containerlösung"
+    },
+    "showProjectsLink": false
+  }
+]

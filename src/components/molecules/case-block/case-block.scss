@@ -1,0 +1,60 @@
+@import '../../../scss/colors';
+@import '../../../scss/responsive';
+
+.case-block {
+  padding: 2.5rem 1rem;
+  &__content {
+    padding-top: 2rem;
+  }
+
+  @media #{$medium-up} {
+    padding: 2.5rem 2rem;
+    &__content {
+      padding-top: 0rem;
+    }
+  }
+
+  @media #{$large-up} {
+    padding: 5rem 4.5rem;
+  }
+
+  h3 {
+    color: $smartive-blue;
+    font-size: 1.75rem;
+    line-height: 1.25;
+
+    @media #{$large-up} {
+      font-size: 2.25rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  &__col-img {
+    display: block;
+    position: relative;
+    line-height: 0;
+
+    @media #{$large-up} {
+      margin: 0 4.5rem 5rem;
+    }
+
+    .is-highlighted {
+      box-shadow: 0 2rem 4rem 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .remarkable {
+    padding: 2rem;
+    background: linear-gradient(to bottom, $light-blue 0%, $white 100%);
+
+    small {
+      color: $smartive-blue;
+      text-transform: none;
+      line-height: 1.5rem;
+      font-weight: 300;
+    }
+  }
+}

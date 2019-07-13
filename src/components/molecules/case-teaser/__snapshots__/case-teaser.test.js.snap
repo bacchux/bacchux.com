@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Caes Teaser renders correctly 1`] = `
+<div
+  className=""
+>
+  <div
+    className="case-teaser"
+  >
+    <div
+      className="container container--case"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="case-teaser__col--img col-xs-12 col-lg-6 last-lg"
+        >
+          <div
+            className="img-container"
+          >
+            <figure>
+              <LinkWrapper
+                className=""
+                to="http://example.com"
+              >
+                <img
+                  alt="Example"
+                  className="case-image"
+                  src="example.jpg"
+                />
+              </LinkWrapper>
+            </figure>
+          </div>
+        </div>
+        <div
+          className="case-teaser__col--body col-xs-12 col-lg-6 first-lg"
+        >
+          <div
+            className="case-teaser__text"
+          >
+            <h2>
+              <small>
+                Subline
+              </small>
+              Title
+            </h2>
+            <div
+              className="case-teaser__body"
+            >
+              <p>
+                Example Content
+              </p>
+            </div>
+            <div
+              className="case-teaser__actions"
+            >
+              <LinkButton
+                hasBorder={false}
+                isPrimary={true}
+                isWhite={false}
+                text="Case anschauen"
+                url="http://example.com"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Caes Teaser renders correctly with «All Projects» LinkButton 1`] = `
+<div
+  className=""
+>
+  <div
+    className="case-teaser"
+  >
+    <div
+      className="container container--case"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="case-teaser__col--img col-xs-12 col-lg-6 last-lg"
+        >
+          <div
+            className="img-container"
+          >
+            <figure>
+              <LinkWrapper
+                className=""
+                to="http://example.com"
+              >
+                <img
+                  alt="Example"
+                  className="case-image"
+                  src="example.jpg"
+                />
+              </LinkWrapper>
+            </figure>
+          </div>
+        </div>
+        <div
+          className="case-teaser__col--body col-xs-12 col-lg-6 first-lg"
+        >
+          <div
+            className="case-teaser__text"
+          >
+            <h2>
+              <small>
+                Subline
+              </small>
+              Title
+            </h2>
+            <div
+              className="case-teaser__body"
+            >
+              <p>
+                Example Content
+              </p>
+            </div>
+            <div
+              className="case-teaser__actions"
+            >
+              <LinkButton
+                hasBorder={false}
+                isPrimary={true}
+                isWhite={false}
+                text="Case anschauen"
+                url="http://example.com"
+              />
+              <LinkButton
+                hasBorder={false}
+                isPrimary={false}
+                isWhite={false}
+                text="alle unsere Arbeiten"
+                url="/projekte"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

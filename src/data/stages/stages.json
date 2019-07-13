@@ -1,0 +1,73 @@
+[
+  {
+    "siteTitle": "Accueil",
+    "title": "Nous sommes la première agence de <em>Drunk UX</em> en France",
+    "contentBlocks": [
+      {
+        "id": "1",
+        "value": "Le saviez-nous ? Le <em>drunk shopping</em> a généré 48 milliards de dollars en 2018 !"
+      },
+      {
+        "id": "2",
+        "value": "Notre mission : faire en sorte de maximiser votre potentiel commercial."
+      }
+    ],
+    "imageSrc": "./home.jpg",
+    "imageAlt": "Test utilisateurs BacchUX",
+    "link": "/notre-offre",
+    "linkText": "Découvrez notre offre"
+  },
+  {
+    "siteTitle": "Notre offre",
+    "siteDescription": "Nous organisons des tests utilisateurs alcoolisés.",
+    "title": "Notre coeur de métier : <em>les tests utilisateurs alcoolisés</em>.",
+    "contentBlocks": [
+      {
+        "id": "1",
+        "value": "L'un des piliers de l'UX: est \"<em>The user is drunk</em>\" : chaque feature implémentée doit pouvoir être comprise et utilisée par une personne en état d'ébriété."
+      },
+      {
+        "id": "2",
+        "value": "Nous organisons des <em>séances de test</em> de votre produit ou service en conditions réelles par un panel d’utilisateurs choisis dans votre cœur de cible afin de comprendre exactement leur utilisation et remonter les incohérences."
+      },
+      {
+        "id": "3",
+        "value": "Le test utilisateur consiste à observer et interviewer les utilisateurs cibles d’un produit pour comprendre leurs objectifs réels et relever les difficultés d’utilisation."
+      },
+      {
+        "id": "4",
+        "value": "Le saviez-vous ? Le test utilisateur est l’outil le plus performant pour améliorer l’efficacité d’un produit digital. Il permet d'identifier 90% des problèmes d’ergonomie et ainsi maximiser le taux de transformation de manière durable."
+      }
+    ],
+    "imageSrc": "./services.jpg",
+    "imageAlt": "Préparation des éléments de test utilisateurs BacchUX"
+  },
+  {
+    "siteTitle": "Pourquoi choisir BacchUX",
+    "siteDescription": "BacchUX est l'agence leader sur les tests utilisateurs alcoolisés en France. Nous faire confiance, c'est ",
+    "title": "Faites nous <em>confiance</em>!",
+    "contentBlocks": [
+      {
+        "id": "1",
+        "value": "BacchUX ne travaille qu'avec des professionnels dans le secteur de l'UX : un minimum de 2 ans d'expérience est requis"
+      },
+      {
+        "id": "2",
+        "value": "Nos tests utilisateurs vous procurent des feedbacks honnêtes, sans aucun filtre."
+      },
+      {
+        "id": "3",
+        "value": "Le résultat : des applications et services drunk-proof."
+      }
+    ],
+    "imageSrc": "./work.jpg",
+    "imageAlt": "BacchUX c'est un panel d'utilisateurs prêts à décortiquer vos projets de long en large"
+  },
+  {
+    "siteTitle": "Contactez-nous",
+    "siteDescription": "Prenez contact avec nous, nous serons ravis de travailler au succès de vos projets !",
+    "contentBlocks": [],
+    "imageSrc": "",
+    "imageAlt": ""
+  }
+]

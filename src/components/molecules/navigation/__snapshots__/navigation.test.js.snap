@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+<nav
+  className="navigation"
+>
+  <ul>
+    <li>
+      <GatsbyLink
+        activeClassName="is-active"
+        to="/offre"
+      >
+        Notre offre
+      </GatsbyLink>
+    </li>
+    <li>
+      <GatsbyLink
+        activeClassName="is-active"
+        to="/projets"
+      >
+        Nos projets
+      </GatsbyLink>
+    </li>
+    <li>
+      <GatsbyLink
+        activeClassName="is-active"
+        to="/agence"
+      >
+        L'agence
+      </GatsbyLink>
+    </li>
+    <li>
+      <GatsbyLink
+        activeClassName="is-active"
+        to="/contact"
+      >
+        Contactez-nouz
+      </GatsbyLink>
+    </li>
+  </ul>
+</nav>
+`;

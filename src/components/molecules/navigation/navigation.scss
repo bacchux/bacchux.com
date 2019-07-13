@@ -1,0 +1,91 @@
+@import "../../../scss/colors";
+@import "../../../scss/responsive";
+
+.navigation {
+  @media #{$large-up} {
+    box-shadow: none;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    margin: .5rem 0;
+
+    @media #{$large-up} {
+      margin: 1rem 0;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      flex-grow: 1;
+      padding: 0;
+
+      @media #{$large-up} {
+        text-align: right;
+
+        &:last-of-type a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    a {
+      margin: 0;
+      padding: 1rem 0;
+      text-decoration: none;
+      font-size: .75rem;
+      color: $smartive-dark-blue;
+      border-bottom: .125rem solid transparent;
+
+      transition: border-bottom-color .2s ease-in-out;
+
+      &.is-active,
+      &:hover {
+        color: $smartive-blue;
+
+        @media #{$large-up} {
+          border-bottom: .125rem solid $smartive-blue;
+          color: $smartive-dark-blue;
+        }
+      }
+
+      @media #{$large-up} {
+        font-size: 1.2rem;
+        padding: .5rem 0;
+        margin: .5rem 1rem;
+      }
+    }
+  }
+
+  .navigation-item--medium {
+    &:hover {
+      border-bottom: .125rem solid $smartive-dark-blue;
+    }
+
+    &:after {
+      display: none;
+
+      @media #{$large-up} {
+        position: absolute;
+        display: inline;
+        height: 1.5rem;
+        width: 2rem;
+        background-image: url('./medium-monogram.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+        top: .4rem;
+        content: ' ';
+        opacity: 0;
+        transition: opacity .2s ease-in-out;
+      }
+    }
+
+    &:hover:after {
+      opacity: 1;
+    }
+  }
+}

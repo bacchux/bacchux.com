@@ -1,0 +1,122 @@
+@import 'colors';
+@import 'responsive';
+
+html,
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: $white;
+  color: $smartive-dark-blue;
+  font-family: $font-stack;
+}
+
+main {
+  position: relative;
+  display: block;
+
+  padding-bottom: 3.5rem;
+
+  @media #{$large-up} {
+    padding: 8.875rem 0 0;
+  }
+}
+
+.container {
+  /* stylelint-disable */
+  max-width: 1600px;
+  /* stylelint-enable */
+
+  @media #{$large-up} {
+    width: 90% !important;
+  }
+}
+
+// https://github.com/kristoferjoseph/flexboxgrid/issues/177
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+  > .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+.error-page {
+  &.error-page--404 {
+    background: url('/confused-vincent.jpg') no-repeat center bottom;
+  }
+
+  .error__text {
+    max-width: 90%;
+    padding: 0 0 30rem;
+    margin: 2.5rem auto 0;
+    color: $smartive-dark-blue;
+    text-align: center;
+
+    @media #{$large-up} {
+      max-width: 60rem;
+      text-align: left;
+      margin: 5rem auto 0;
+    }
+
+    h1 {
+      margin-bottom: 2.5rem;
+
+      @media #{$large-up} {
+        margin-bottom: 5rem;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 1.75;
+      font-weight: 300;
+    }
+  }
+}
+
+.emphasis {
+  font-style: normal;
+  border-bottom: 0.125rem solid $smartive-blue;
+}
+
+h1 > .emphasis,
+h1 > em {
+  border-bottom: 0.125rem solid $smartive-blue;
+  font-style: normal;
+
+  @media #{$small-up} {
+    border-bottom-width: 0.25rem;
+  }
+}
+
+h2 > .emphasis,
+h2 > em {
+  border-bottom: 0.2rem solid $smartive-blue;
+  font-style: normal;
+}
+
+h2 > small {
+  line-height: 3;
+}
+
+figcaption {
+  line-height: 1.2;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.4rem;
+}

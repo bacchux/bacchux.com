@@ -1,0 +1,29 @@
+@import "../../../scss/colors";
+@import "../../../scss/responsive";
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background: $smartive-blue;
+  border: .1rem solid $smartive-blue;
+  box-shadow: 0 .25rem 1rem 0 rgba(0, 0, 0, .2);
+  color: $white;
+  display: block;
+  padding: .75rem 1.5rem;
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: background .2s ease-in-out, color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+
+  &:hover {
+    background: $smartive-blue;
+    border: .1rem solid $smartive-blue;
+    color: $white;
+    box-shadow: 0 .75rem 2rem 0 rgba(0, 0, 0, .2);
+  }
+
+  @media #{$small-up} {
+    display: inline-block;
+  }
+}

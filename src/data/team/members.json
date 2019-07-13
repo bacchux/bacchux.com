@@ -1,0 +1,23 @@
+[
+  {
+    "img": "./jeremie-zarca.jpg",
+    "job": "Fondateur",
+    "name": "Jérémie Zarca",
+    "education": "Master de Management & Innovation",
+    "description": "<p>Passionné par le web, j'adore les défis, la data et les API.</p>",
+    "links": [
+      {
+        "text": "jeremie@bacchux.com",
+        "url": "mailto:jeremie@bacchux.com"
+      },
+      {
+        "text": "Twitter",
+        "url": "https://twitter.com/Jeremie__"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/jzarca01"
+      }
+    ]
+  }
+]
