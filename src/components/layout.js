@@ -30,7 +30,7 @@ export class DefaultLayout extends React.Component {
   render() {
     const {
       siteTitle,
-      siteDescription = `Nous vous aidons à rendre vos projets plus attractifs aux yeux des utilisateurs en situation d'ébriété.`,
+      siteDescription = `Nous vous aidons à rendre vos projets plus attractifs et compréhensifs aux yeux des utilisateurs en situation d'ébriété.`,
     } = this.props;
 
     return (
@@ -44,7 +44,7 @@ export class DefaultLayout extends React.Component {
           <link rel="icon" type="image/png" href="/favicon.png" />
 
           <meta name="description" content={siteDescription} />
-          <title>{siteTitle ? `${siteTitle} | BacchUX` : 'BacchUX - Tests utilisateurs alcoolisés'}</title>
+          <title>{siteTitle ? `${siteTitle} | BacchUX` : 'BacchUX - La première agence de /"Drunk UX/" en France.'}</title>
         </Helmet>
 
         <Header />

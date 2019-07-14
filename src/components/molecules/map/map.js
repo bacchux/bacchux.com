@@ -7,7 +7,7 @@ import './map.scss';
 import mapMarkerImage from './icon.png';
 
 export const baseUrl =
-  'https://maps.googleapis.com/maps/api/js?key=AIzaSyA2zk8tWlRqFNQwTuwvV7fvTAApiCocXPk&libraries=places,geometry';
+  'https://maps.googleapis.com/maps/api/js?key=AIzaSyD1q6iI1c4XGqrbKGBPZfO2bnRTRVaRg04&libraries=places,geometry';
 
 const AsyncGoogleMaps = withScriptjs(
   withGoogleMap((props) => (

@@ -6,7 +6,7 @@ import { LinkButton } from '../../atoms/link-button';
 import { LinkWrapper } from '../../atoms/link-wrapper';
 import './case-teaser.scss';
 
-export const CaseTeaser = ({ url, image, title, subline, children, allProjects, modifiers, linkText }) => (
+export const CaseTeaser = ({ url, image, title, subline, children, modifiers, linkText }) => (
   <div className={modifiers.map((modifier) => `case-teaser--${modifier}`).join(' ')}>
     <div className="case-teaser">
       <div className="container container--case">
@@ -34,7 +34,6 @@ export const CaseTeaser = ({ url, image, title, subline, children, allProjects, 
               <div className="case-teaser__body">{children}</div>
               <div className="case-teaser__actions">
                 <LinkButton url={url} text={linkText} isPrimary />
-                {allProjects ? <LinkButton url="/projekte" text="alle unsere Arbeiten" /> : null}
               </div>
             </div>
           </div>
@@ -62,7 +61,6 @@ CaseTeaser.propTypes = {
   title: PropTypes.string.isRequired,
   subline: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
-  allProjects: PropTypes.bool,
   modifiers: PropTypes.arrayOf(PropTypes.string),
   linkText: PropTypes.string,
 };
@@ -70,7 +68,7 @@ CaseTeaser.propTypes = {
 CaseTeaser.defaultProps = {
   allProjects: false,
   modifiers: [],
-  linkText: 'Case anschauen',
+  linkText: 'Lire la suite',
 };
 
 export default CaseTeaser;
