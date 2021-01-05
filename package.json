@@ -3,7 +3,7 @@
   "description": "Le site de Bacchux.com",
   "version": "1.0.0",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "flexboxgrid": "^6.3.1",
     "gatsby": "^2.0.7",
     "gatsby-image": "^2.0.9",
